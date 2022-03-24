@@ -1,0 +1,45 @@
+.reviews {
+  &_container {
+    width: 40%;
+    padding-bottom: 50px;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+      padding: 0 15px 50px;
+    }
+  }
+
+  &_item {
+    background: var(--color-bg-add);
+    padding: 40px 25px;
+    border-radius: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    &_img {
+      width: 75px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+    }
+
+    &_name {
+      font-size: 22px;
+    }
+
+    &_info {
+      color: var(--color-light);
+    }
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: var(--color-light);
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
