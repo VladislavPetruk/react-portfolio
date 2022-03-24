@@ -64,7 +64,7 @@ const Reviews = () => {
             <div className="reviews_item_img">
               <picture>
                 <source srcSet={item.imgWebp} type="image/webp" />
-                <img src={item.imgJpg} alt={item.name} />
+                <img src={item.imgJpg} alt={item.name} width={75} height={75} />
               </picture>
             </div>
             <h4 className="reviews_item_name">{item.name}</h4>

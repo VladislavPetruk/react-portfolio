@@ -17,7 +17,7 @@ const Header = () => {
         <div className='header_photo'>
           <picture>
             <source srcSet={MainPhotoWebp} type="image/webp" />
-            <img src={MainPhotoPng} alt="My_photo" />
+            <img src={MainPhotoPng} alt="My_photo" width={350} height={525} />
           </picture>
         </div>
 

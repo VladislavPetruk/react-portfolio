@@ -16,7 +16,7 @@ const About = () => {
           <div className="about_me_img">
             <picture>
               <source srcSet={MainPhotoWebp} type="image/webp" />
-              <img src={MainPhotoJpg} alt="My_photo" />
+              <img src={MainPhotoJpg} alt="My_photo" width={472} height={472} />
             </picture>
           </div>
         </div>
